@@ -4,20 +4,20 @@ This project combines an Arduino-based joystick mouse with a Python OCR system t
 
 ## Features
 
-- 🎮 **Joystick Mouse Control**  
+- **Joystick Mouse Control**  
   Arduino reads joystick inputs and sends HID mouse signals (move, click).
 
-- 🧠 **Text Detection via OCR**  
+- **Text Detection via OCR**  
   Python captures the screen, uses Tesseract OCR to detect Korean/English text, and identifies the word under the cursor.
 
-- 💡 **Braille Conversion and Output**  
+- **Braille Conversion and Output**  
   Detected words are converted to braille patterns and sent to Arduino to activate a 6-dot braille actuator.
 
 ---
 
 ## Getting Started
 
-### 📦 Requirements
+### Requirements
 
 - Arduino board with HID support (e.g., Leonardo, Micro, Pro Micro)
 - Joystick module (connected to analog pins)
@@ -25,9 +25,6 @@ This project combines an Arduino-based joystick mouse with a Python OCR system t
 - Python 3.x
 - Tesseract OCR installed (e.g., `C:\Program Files\Tesseract-OCR\tesseract.exe` on Windows)
 
-### 🔧 Installation
-
-Install Python dependencies:
 
 ```bash
 pip install -r requirements.txt
